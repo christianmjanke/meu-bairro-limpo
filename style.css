@@ -1,7 +1,177 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
+:root {
+  --light-green: #00cc71;
+  --dark-green: #056d54;
+  --gray-background: #e8e8e8;
+  --gray-text: #818684;
+  --light-text: #fff
+}
 body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  background-color: #e8e8e8;
+}
+
+.container {
+  padding: 10rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.left-container {
+  border-radius: 20px 0 0 20px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+.left-content {
+  color: var(--light-green);
+  text-align: center;
+}
+
+.left-content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 0.3;
+}
+
+.left-content h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--dark-green);
+}
+
+.right-container {
+  border-radius: 0 20px 20px 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: var(--dark-green);
+  padding: 2rem;
+}
+.center-container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 30rem;
+  width: 20rem;
+  border-radius: 20px;
+}
+
+.right-image img {
+  width: 3rem;
+}
+.right-content p,
+h3 {
+  line-height: 0.6;
+}
+
+.right-content h3 {
+  font-size: 1.4rem;
+  font-weight: 550;
+  color: var(--dark-green);
+}
+
+.right-content p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--light-green);
+}
+
+.inputs {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  line-height: 0.5;
+}
+.inputs label {
+  color: var(--gray-text);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.inputs input {
+  background-color: var(--gray-background);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+.inputs ::placeholder {
+  color: rgba(107, 107, 107, 0.411);
+}
+
+.connect-recover {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.keep-connect {
+  display: flex;
+  align-items: center;
+}
+
+.keep-connect p {
+  color: var(--gray-text);
+  font-size: 10px;
+}
+
+.recover-password p {
+  color: var(--gray-text);
+  font-size: 10px;
+  text-decoration: underline;
+}
+
+.keep-connect input[type="checkbox"] {
+  appearance: none;
+  width: 11px;
+  height: 11px;
+  border-radius: 2px;
+  background-color: var(--gray-text);
+  outline: none;
+  cursor: pointer;
+}
+
+.keep-connect input[type="checkbox"]:checked {
+  background-color: var(--light-green);
+}
+
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.connect-button input[type="submit"]{
+  width: 4.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--light-green);
+  color: var(--light-text);
+}
+
+.register-button{
+  width:7rem;
+  height: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--gray-background);
+}
+.register-button a{
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--light-green);
 }
