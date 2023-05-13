@@ -7,14 +7,14 @@
 </p>
 
 # 🌳Meu bairro limpo <br> 
-<p font-size="49px"> https://meu-bairro-limpo.vercel.app </p>
+<a> https://meu-bairro-limpo.vercel.app </a>
 # 🔖 Sobre
 
-Este repositório e sobre um projeto que estou desenvolvendo aos poucos conforme estudo, o intuito dele e servir para pessoas mandar a localização de entulhos, sujeiras entre outras coisas espardalhadas pelo seu bairro/cidade, para a prefeitura para assim manter as ruas do bairro/cidade sempre limpa.
+Este repositório é sobre um projeto que estou desenvolvendo aos poucos conforme estudo, o intuito dele é servir para pessoas mandar a localização de entulhos, sujeiras entre outras coisas espardalhadas pelo seu bairro/cidade, para a prefeitura assim manter as ruas sempre limpa.
 
 ## ✍🏻 Conceitos usados
 
-Durante o desenvolvimento, vou usando diversar tecnologias e vou listalas aqui a baixo: <br>
+Durante o desenvolvimento, vou usando diversar tecnologias e vou listando elas aqui a baixo: <br>
 `Html-5` <br> 
 `Css-3`  <br>
 

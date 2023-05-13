@@ -5,7 +5,7 @@
   --dark-green: #056d54;
   --gray-background: #e8e8e8;
   --gray-text: #818684;
-  --light-text: #fff
+  --light-text: #fff;
 }
 body {
   margin: 0;
@@ -145,13 +145,12 @@ h3 {
   background-color: var(--light-green);
 }
 
-
-.buttons{
+.buttons {
   display: flex;
   justify-content: space-between;
 }
 
-.connect-button input[type="submit"]{
+.connect-button input[type="submit"] {
   width: 4.5rem;
   height: 1.5rem;
   cursor: pointer;
@@ -161,8 +160,8 @@ h3 {
   color: var(--light-text);
 }
 
-.register-button{
-  width:7rem;
+.register-button {
+  width: 7rem;
   height: 1.5rem;
   cursor: pointer;
   text-decoration: none;
@@ -170,8 +169,22 @@ h3 {
   border-radius: 5px;
   background-color: var(--gray-background);
 }
-.register-button a{
+.register-button a {
   text-decoration: none;
   font-size: 14px;
   color: var(--light-green);
+}
+
+@media (max-width: 755px) {
+  .left-container {
+    display: none;
+  }
+  .container {
+    padding-top: 6rem;
+    padding-bottom: 0;
+  }
+  .right-container {
+    border-radius: 10px;
+    width: 19rem;
+  }
 }

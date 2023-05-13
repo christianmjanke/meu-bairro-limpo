@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="import" href="logou.html" />
     <title>Meu bairro limpo</title>
   </head>
   <body>
@@ -30,42 +31,46 @@
           <div class="right-content">
             <h3>Meu Bairro Limpo</h3>
             <p>Login</p>
+
+            <form action="./logou.html" method="get">
             <div class="inputs">
-              <label for="email">Email</label> <br />
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="email@example.com"
-              /><br />
-              <br />
-              <label for="password">Password</label> <br />
-              <input
-                type="password"
-                name="password"
-                id="password"
-                placeholder="enter your password"
-              />
-            </div>
-            <div class="connect-recover">
-              <div class="keep-connect">
-                <input type="checkbox" name="checkbox" id="checkbox" />
-                <p>Keep connect</p>
+                <label for="email">Email</label> <br />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="email@example.com" required
+                /><br />
+                <br />
+                <label for="password">Password</label> <br />
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="enter your password"
+                  required
+                />
               </div>
-              <div class="recover-password">
-                <a href="#recuperar">
-                  <p>Recover password</p>
-                </a>
+              <div class="connect-recover">
+                <div class="keep-connect">
+                  <input type="checkbox" name="checkbox" id="checkbox" />
+                  <p>Keep connect</p>
+                </div>
+                <div class="recover-password">
+                  <a href="#recuperar">
+                    <p>Recover password</p>
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="buttons">
-              <div class="connect-button">
-                <input type="submit" value="Connect" />
+              <div class="buttons">
+                <div class="connect-button">
+                  <input type="submit" value="Connect" />
+                </div>
+                <div class="register-button">
+                  <a href=""> Register</a>
+                </div>
               </div>
-              <div class="register-button">
-                <a href=""> Register</a>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
