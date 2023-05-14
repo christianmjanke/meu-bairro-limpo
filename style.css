@@ -186,13 +186,13 @@ h3 {
     background-color: var(--dark-green);
   }
   .container {
-    padding: 0;
+    padding: 20% 0;
   }
   .left-container {
     display: none;
   }
   .right-container {
     border-radius: 10px;
-    width: 19rem;
   }
+
 }
